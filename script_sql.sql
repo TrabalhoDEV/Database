@@ -1,7 +1,7 @@
 CREATE TABLE student (
 	enrollment SERIAL PRIMARY KEY,
 	name VARCHAR(150) DEFAULT 'Não Informado',
-	email VARCHAR(345) UNIQUE DEFAULT 'Não Informado',
+	email VARCHAR(345) UNIQUE,
 	password VARCHAR(255) DEFAULT 'Não Informado',
 	status INT DEFAULT 1,
 	cpf VARCHAR(11) NOT NULL UNIQUE CHECK (cpf ~ '^[0-9]{11}$')
