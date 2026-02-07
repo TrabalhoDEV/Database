@@ -16,9 +16,10 @@ CREATE TABLE subject (
 );
 
 CREATE TABLE student_subject (
+	id SERIAL PRIMARY KEY,
 	student_id INT REFERENCES student(id) NOT NULL,
 	subject_id INT REFERENCES subject(id) NOT NULL,
-	PRIMARY KEY (student_id, subject_id),
+	CONSTRAINT uk_student_subject UNIQUE (student_id, subject_id),
 	grade1 NUMERIC(4,2) CHECK (grade1 BETWEEN 0 AND 10),
 	grade2 NUMERIC(4,2) CHECK (grade2 BETWEEN 0 AND 10),
 	obs TEXT
