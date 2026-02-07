@@ -17,8 +17,8 @@ CREATE TABLE subject (
 
 CREATE TABLE student_subject (
 	id SERIAL PRIMARY KEY,
-	student_id INT REFERENCES student(id) NOT NULL,
-	subject_id INT REFERENCES subject(id) NOT NULL,
+	student_id INT NOT NULL REFERENCES student(id) ON DELETE CASCADE,
+	subject_id INT NOT NULL REFERENCES subject(id) ON DELETE CASCADE,
 	CONSTRAINT uk_student_subject UNIQUE (student_id, subject_id),
 	grade1 NUMERIC(4,2) CHECK (grade1 BETWEEN 0 AND 10),
 	grade2 NUMERIC(4,2) CHECK (grade2 BETWEEN 0 AND 10),
