@@ -1,8 +1,8 @@
 CREATE TABLE student (
-	enrollment SERIAL PRIMARY KEY,
-	name VARCHAR(150) DEFAULT 'Não Informado',
+	id SERIAL PRIMARY KEY,
+	name VARCHAR(150) DEFAULT 'não informado',
 	email VARCHAR(345) UNIQUE,
-	password VARCHAR(255) DEFAULT 'Não Informado',
+	password VARCHAR(255) DEFAULT 'não informado',
 	status INT DEFAULT 1,
 	cpf VARCHAR(11) NOT NULL UNIQUE CHECK (cpf ~ '^[0-9]{11}$')
 );
@@ -16,15 +16,17 @@ CREATE TABLE subject (
 );
 
 CREATE TABLE student_subject (
-	student_enrollment INT REFERENCES student(enrollment) NOT NULL,
-	subject_id INT REFERENCES subject(id) NOT NULL,
-	PRIMARY KEY (student_enrollment, subject_id),
+	id SERIAL PRIMARY KEY,
+	student_id INT NOT NULL REFERENCES student(id) ON DELETE CASCADE,
+	subject_id INT NOT NULL REFERENCES subject(id) ON DELETE CASCADE,
+	CONSTRAINT uk_student_subject UNIQUE (student_id, subject_id),
 	grade1 NUMERIC(4,2) CHECK (grade1 BETWEEN 0 AND 10),
 	grade2 NUMERIC(4,2) CHECK (grade2 BETWEEN 0 AND 10),
 	obs TEXT
 );
 
 CREATE TABLE admin (
-	document VARCHAR(20) PRIMARY KEY,
+	id SERIAL PRIMARY KEY,
+	document VARCHAR(11),
 	password VARCHAR(255) NOT NULL
 );
