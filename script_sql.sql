@@ -26,6 +26,6 @@ CREATE TABLE student_subject (
 
 CREATE TABLE admin (
 	id SERIAL PRIMARY KEY,
-	document VARCHAR(20),
+	document VARCHAR(11),
 	password VARCHAR(255) NOT NULL
 );
