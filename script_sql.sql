@@ -18,7 +18,7 @@ CREATE TABLE student (
 	password VARCHAR(255) DEFAULT 'não informado',
 	status INT DEFAULT 1,
 	cpf VARCHAR(11) NOT NULL UNIQUE CHECK (cpf ~ '^[0-9]{11}$'),
-	id_school_class INT REFERENCES school_class(id)
+	id_school_class INT NOT NULL REFERENCES school_class(id)
 );
 
 CREATE TABLE subject (
@@ -36,22 +36,22 @@ CREATE TABLE admin (
 
 CREATE TABLE school_class_teacher(
 	id SERIAL PRIMARY KEY,
-	id_school_class INT REFERENCES school_class(id) ON DELETE CASCADE,
-	id_teacher INT REFERENCES teacher(id) ON DELETE CASCADE,
+	id_school_class INT NOT NULL REFERENCES school_class(id) ON DELETE CASCADE,
+	id_teacher INT NOT NULL REFERENCES teacher(id) ON DELETE CASCADE,
 	CONSTRAINT uk_school_class_teacher UNIQUE (id_school_class, id_teacher)
 );
 
 CREATE TABLE subject_teacher(
 	id SERIAL PRIMARY KEY, 
-	id_subject INT REFERENCES subject(id) NOT NULL ON DELETE CASCADE,
-	id_teacher INT REFERENCES teacher(id) NOT NULL ON DELETE CASCADE,
+	id_subject INT NOT NULL REFERENCES subject(id) ON DELETE CASCADE,
+	id_teacher INT NOT NULL REFERENCES teacher(id) ON DELETE CASCADE,
 	CONSTRAINT uk_subject_teacher UNIQUE (id_subject, id_teacher)
 );
 
 CREATE TABLE student_subject (
     id SERIAL PRIMARY KEY,
-    id_student INT REFERENCES student(id) NOT NULL ON DELETE CASCADE,
-    id_subject INT REFERENCES subject(id) NOT NULL ON DELETE CASCADE,
+    id_student INT NOT NULL REFERENCES student(id) ON DELETE CASCADE,
+    id_subject INT NOT NULL REFERENCES subject(id) ON DELETE CASCADE,
     grade1 NUMERIC(4,2) CHECK (grade1 BETWEEN 0 AND 10),
     grade2 NUMERIC(4,2) CHECK (grade2 BETWEEN 0 AND 10),
     obs TEXT,
