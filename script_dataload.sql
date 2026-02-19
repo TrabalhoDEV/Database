@@ -1,13 +1,13 @@
 INSERT INTO school_class (school_year) VALUES
-('1º ano'),
-('2º ano'),
-('3º ano'),
-('4º ano'),
-('5º ano'),
-('6º ano'),
-('7º ano'),
-('8º ano'),
-('9º ano');
+('1º'),
+('2º'),
+('3º'),
+('4º'),
+('5º'),
+('6º'),
+('7º'),
+('8º'),
+('9º');
 
 INSERT INTO teacher (name, email, username, password) VALUES
 ('ana silva', 'ana.silva@escola.com', 'ana.silva', '$2b$10$AbCdefGhij1234567890klmnopqrstuv'),
@@ -24,7 +24,9 @@ INSERT INTO teacher (name, email, username, password) VALUES
 ('lucas pinto', 'lucas.pinto@escola.com', 'lucas.pinto', '$2b$10$FgHiJkLmNoPqRsTuVwXyZaBcDe12345'),
 ('marina teixeira', 'marina.teixeira@escola.com', 'marina.teixeira', '$2b$10$ZXcvBNMasdFGHJKLpoiUYTrewq1234'),
 ('nelson barros', 'nelson.barros@escola.com', 'nelson.barros', '$2b$10$ASDFghjklQWERTYUIOPzxcvbnm12345'),
-('paula freitas', 'paula.freitas@escola.com', 'paula.freitas', '$2b$10$MNBVCXZlkjHGFDsaPOIUYTrewq12345');
+('paula freitas', 'paula.freitas@escola.com', 'paula.freitas', '$2b$10$MNBVCXZlkjHGFDsaPOIUYTrewq12345'),
+
+('professor desenvolvimento', 'devsecretaria@gmail.com', 'dev.secretaria','$2a$10$D1yHGY0bHj3ijaax2geWFOky/MptzwmcJdHYOrbpPzSfJfA0QAxNm');
 
 INSERT INTO subject (name, deadline) VALUES
 ('matemática', '2026-03-01'),
@@ -58,7 +60,9 @@ INSERT INTO student (name, email, password, status, cpf, id_school_class) VALUES
 ('aline ribeiro', 'aline.ribeiro@email.com', '$2b$10$ASDfghJKLPOIUYTrewqzxc', 1, '33445566778', 3),
 ('leonardo pacheco', 'leonardo.pacheco@email.com', '$2b$10$qwertyUIOPASDfghJKLZX', 1, '44556677889', 4),
 ('priscila batista', 'priscila.batista@email.com', '$2b$10$ZXCVBNMasdfGHJKLpoiUYT', 1, '55667788990', 5),
-('gustavo menezes', 'gustavo.menezes@email.com', '$2b$10$POIUYTrewqASDfghJKLzxc', 1, '66778899001', 6);
+('gustavo menezes', 'gustavo.menezes@email.com', '$2b$10$POIUYTrewqASDfghJKLzxc', 1, '66778899001', 6),
+
+('aluno desenvolvimento', 'devsecretaria@gmail.com','$2a$10$D1yHGY0bHj3ijaax2geWFOky/MptzwmcJdHYOrbpPzSfJfA0QAxNm',1,'99999999999',1);
 
 INSERT INTO school_class_teacher (id_school_class, id_teacher) VALUES
 (1,1),(2,2),(3,3),(4,4),(5,5),
