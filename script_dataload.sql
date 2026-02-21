@@ -10,21 +10,21 @@ INSERT INTO school_class (school_year) VALUES
 ('9º');
 
 INSERT INTO teacher (name, email, username, password) VALUES
-('ana silva', 'ana.silva@escola.com', 'ana.silva', '$2b$10$7QJpJ9g9n0v3hWQ7nQbK3e8vYk7Cj9xQ6zR7uA0W5oE7vH6yK9s2e'),
-('bruno costa', 'bruno.costa@escola.com', 'bruno.costa', '$2b$10$kW8xQ3vB1nP0mL2rT5yU7iO8pA9sD3fG6hJ1kL4zX7cV8bN2mQ5r'),
-('carla pereira', 'carla.pereira@escola.com', 'carla.pereira', '$2b$10$Zx7vQ9pLm3kN5tR2yU8iO1aS4dF6gH7jK8lP0qW2eR4tY6uI8oP'),
-('daniel rocha', 'daniel.rocha@escola.com', 'daniel.rocha', '$2b$10$Lm4nB8vC2xZ6aS1dF9gH3jK7lP5qW2eR8tY1uI3oP6aS9dF2gH'),
-('eduarda leme', 'eduarda.leme@escola.com', 'eduarda.leme', '$2b$10$qW2eR4tY6uI8oP1aS3dF5gH7jK9lZ2xC4vB6nM8kL1pQ3rT5yU'),
-('fábio nunes', 'fabio.nunes@escola.com', 'fabio.nunes', '$2b$10$P0oI9uY8tR7eW6qA5sD4fG3hJ2kL1zX0cV9bN8mQ7rT6yU5iO'),
-('gabriela mota', 'gabriela.mota@escola.com', 'gabriela.mota', '$2b$10$X3cV5bN7mQ9rT1yU3iO5pA7sD9fG2hJ4kL6zX8cV0bN2mQ4rT'),
-('henrique dias', 'henrique.dias@escola.com', 'henrique.dias', '$2b$10$A1sD3fG5hJ7kL9zX2cV4bN6mQ8rT0yU2iO4pA6sD8fG1hJ3kL'),
-('isabela ramos', 'isabela.ramos@escola.com', 'isabela.ramos', '$2b$10$Z9xC7vB5nM3qW1eR8tY6uI4oP2aS0dF7gH5jK3lP1qW9eR7tY'),
-('joão ferreira', 'joao.ferreira@escola.com', 'joao.ferreira', '$2b$10$M2nB4vC6xZ8aS0dF2gH4jK6lP8qW1eR3tY5uI7oP9aS2dF4gH'),
-('karen souza', 'karen.souza@escola.com', 'karen.souza', '$2b$10$Q5wE7rT9yU1iO3pA5sD7fG9hJ1kL3zX5cV7bN9mQ2rT4yU6iO'),
-('lucas pinto', 'lucas.pinto@escola.com', 'lucas.pinto', '$2b$10$L8mN6bV4cX2zA0sD8fG6hJ4kL2pQ9rT7yU5iO3pA1sD9fG7hJ'),
-('marina teixeira', 'marina.teixeira@escola.com', 'marina.teixeira', '$2b$10$R1tY3uI5oP7aS9dF1gH3jK5lP7qW9eR1tY3uI5oP7aS9dF1gH'),
-('nelson barros', 'nelson.barros@escola.com', 'nelson.barros', '$2b$10$H7jK5lP3qW1eR9tY7uI5oP3aS1dF9gH7jK5lP3qW1eR9tY7uI'),
-('paula freitas', 'paula.freitas@escola.com', 'paula.freitas', '$2b$10$B4vC6xZ8aS0dF2gH4jK6lP8qW1eR3tY5uI7oP9aS2dF4gH6jK'),
+('ana silva', 'ana.silva@escola.com', 'ana.silva', '$2a$12$FlzbCeVldOw.wugNaE0/Yeo/cv4Wnv6sbJQaJFORVMYwdRkNxnoQ2'),
+('bruno costa', 'bruno.costa@escola.com', 'bruno.costa', '$2a$12$LK3t51mVZjH3MG0/9ywyJeStmaoOqsA8Y/wI62EoKdFmAPDnPg7iK'),
+('carla pereira', 'carla.pereira@escola.com', 'carla.pereira', '$2a$12$fqLjUMgb4wwpKm1qtAERauL4nlgsJV5jyrA2Q02UDuppKJqlT5KTi'),
+('daniel rocha', 'daniel.rocha@escola.com', 'daniel.rocha', '$2a$12$W0QmVM2ZbCA1S6FU7G3e3upgTl55s7WcK5anMHL8ZBwhyKbgyTFSG'),
+('eduarda leme', 'eduarda.leme@escola.com', 'eduarda.leme', '$2a$12$zoUWWJs5yAeToH61JyYENuM7EwbYIBvdo63gRhNQucVizQAfnK/KO'),
+('fábio nunes', 'fabio.nunes@escola.com', 'fabio.nunes', '$2a$12$8BC3TvGfrbFvNm4kCOGXVucPSnDBiishog.xsoE5ujsusJ4.lZHjm'),
+('gabriela mota', 'gabriela.mota@escola.com', 'gabriela.mota', '$2a$12$TF3rinQ3vPMNGVkU1WGpt.3OD9Q/UlDO/s0cRsK0G62tS38ehnbOm'),
+('henrique dias', 'henrique.dias@escola.com', 'henrique.dias', '$2a$12$juXw0TQA095ziVT./9XN4ezw0Z/UUgkMe5aw/KLujzHuTmi.7UfVW'),
+('isabela ramos', 'isabela.ramos@escola.com', 'isabela.ramos', '$2a$12$b6AK1wR/ZTrdi8vjTCbovejy9Q4xgh74iHOPEW58uDlCS6VL3MTO6'),
+('joão ferreira', 'joao.ferreira@escola.com', 'joao.ferreira', '$2a$12$N00hMhiDl60mASwEb84a4eB54TB.jEztUNPX6l53KrkiOl9dYdgZ.'),
+('karen souza', 'karen.souza@escola.com', 'karen.souza', '$2a$12$KCBYGEPG0y.JLJhLZmuLcespkgz/UmvEhFzB6JUMuZYxzlYk.mYUe'),
+('lucas pinto', 'lucas.pinto@escola.com', 'lucas.pinto', '$2a$12$NqDS.LL.evJHaPSAODgd8OZKCRk2XgCKnwIjmyBiN5rLUYud5OMq6'),
+('marina teixeira', 'marina.teixeira@escola.com', 'marina.teixeira', '$2a$12$Iy9jYgMxKql4oxCqxqaZnev9JOuOI.GygQczHpTuLBiyM0RgKWxli'),
+('nelson barros', 'nelson.barros@escola.com', 'nelson.barros', '$2a$12$UMQshUz.egbd9B8lDpPnle4Hc1oOM8js8V1S12FHc3qjsq5xx27li'),
+('paula freitas', 'paula.freitas@escola.com', 'paula.freitas', '$2a$12$j0iT/cXE8NTnrDMzlpJzv.ddcQlwKsAb01lLNHVJsuT0l6Yd3X0fK'),
 
 ('professor desenvolvimento', 'devsecretaria@gmail.com', 'dev.secretaria','$2a$10$D1yHGY0bHj3ijaax2geWFOky/MptzwmcJdHYOrbpPzSfJfA0QAxNm');
 
@@ -46,21 +46,21 @@ INSERT INTO subject (name, deadline) VALUES
 ('banco de dados', '2026-03-15');
 
 INSERT INTO student (name, email, password, status, cpf, id_school_class) VALUES
-('marcos vinícius almeida', 'marcos.almeida@email.com', '$2b$10$Y5uI3oP1aS9dF7gH5jK3lP1qW9eR7tY5uI3oP1aS9dF7gH5jK', 1, '12345678901', 1),
-('juliana rodrigues', 'juliana.rodrigues@email.com', '$2b$10$T7yU5iO3pA1sD9fG7hJ5kL3zX1cV9bN7mQ5rT3yU1iO9pA7sD', 1, '23456789012', 2),
-('rafael moreira', 'rafael.moreira@email.com', '$2b$10$F9gH7jK5lP3qW1eR9tY7uI5oP3aS1dF9gH7jK5lP3qW1eR9tY', 1, '34567890123', 3),
-('camila fernandes', 'camila.fernandes@email.com', '$2b$10$C6xZ8aS0dF2gH4jK6lP8qW1eR3tY5uI7oP9aS2dF4gH6jK8lP', 1, '45678901234', 4),
-('pedro henrique lima', 'pedro.lima@email.com', '$2b$10$E3rT5yU7iO9pA1sD3fG5hJ7kL9zX2cV4bN6mQ8rT0yU2iO', 1, '56789012345', 5),
-('beatriz campos', 'beatriz.campos@email.com', '$2b$10$W9eR7tY5uI3oP1aS9dF7gH5jK3lP1qW9eR7tY5uI3oP1aS9dF', 1, '67890123456', 6),
-('thiago azevedo', 'thiago.azevedo@email.com', '$2b$10$V2bN4mQ6rT8yU0iO2pA4sD6fG8hJ0kL2zX4cV6bN8mQ1rT3y', 1, '78901234567', 7),
-('larissa fonseca', 'larissa.fonseca@email.com', '$2b$10$G5hJ7kL9zX1cV3bN5mQ7rT9yU1iO3pA5sD7fG9hJ1kL3zX5cV', 1, '89012345678', 8),
-('diego machado', 'diego.machado@email.com', '$2b$10$N8mQ6rT4yU2iO0pA8sD6fG4hJ2kL9zX7cV5bN3mQ1rT9yU7i', 1, '90123456789', 9),
-('natália guedes', 'natalia.guedes@email.com', '$2b$10$K3lP1qW9eR7tY5uI3oP1aS9dF7gH5jK3lP1qW9eR7tY5uI3oP', 1, '11223344556', 1),
-('vinícius torres', 'vinicius.torres@email.com', '$2b$10$D6fG8hJ0kL2zX4cV6bN8mQ1rT3yU5iO7pA9sD1fG3hJ5kL7zX', 1, '22334455667', 2),
-('aline ribeiro', 'aline.ribeiro@email.com', '$2b$10$P9aS7dF5gH3jK1lP9qW7eR5tY3uI1oP9aS7dF5gH3jK1lP9qW', 1, '33445566778', 3),
-('leonardo pacheco', 'leonardo.pacheco@email.com', '$2b$10$U4iO2pA0sD8fG6hJ4kL2zX9cV7bN5mQ3rT1yU9iO7pA5sD3f', 1, '44556677889', 4),
-('priscila batista', 'priscila.batista@email.com', '$2b$10$S1dF9gH7jK5lP3qW1eR9tY7uI5oP3aS1dF9gH7jK5lP3qW1eR', 1, '55667788990', 5),
-('gustavo menezes', 'gustavo.menezes@email.com', '$2b$10$Z8xC6vB4nM2qW0eR8tY6uI4oP2aS0dF8gH6jK4lP2qW0eR8tY', 1, '66778899001', 6),
+('marcos vinícius almeida', 'marcos.almeida@email.com', '$2a$12$9OhoQCKodXj5u9f6Wflbiumo0xt3jQqGWG1jRCW3lEGRSeNI2vOB6', 1, '12345678901', 1),
+('juliana rodrigues', 'juliana.rodrigues@email.com', '$2a$12$svTdxoE7nbboQoOjv9T/A.EPLRAnmVxBF8mN3OlPhtxWnd1JjJO7u', 1, '23456789012', 2),
+('rafael moreira', 'rafael.moreira@email.com', '$2a$12$KUFM0hqCEAj8QBzE6JmFjOQz/GrRemeFeboeL8l1zPYL3cTi7Rhwu', 1, '34567890123', 3),
+('camila fernandes', 'camila.fernandes@email.com', '$2a$12$ME9QZJI7WceWzYNO.eBhguaevHQY3RPThfJJ/b.cMKLh5tmFpg6IO', 1, '45678901234', 4),
+('pedro henrique lima', 'pedro.lima@email.com', '$2a$12$jGeQSVgTvQxcHZjabBQG8e09NL9mn5bxVdG2GuN.lriNzbPp3gELq', 1, '56789012345', 5),
+('beatriz campos', 'beatriz.campos@email.com', '$2a$12$LMpc9V0M7zZZsVWxjeCf/uobwIrg9PdkAdLbBmAOZysVygZS4Towq', 1, '67890123456', 6),
+('thiago azevedo', 'thiago.azevedo@email.com', '$2a$12$47aKQ/1t5Ral.CSmT77fIuK4WtKiNnguV9vX0pEzuQjqDwViInVL2', 1, '78901234567', 7),
+('larissa fonseca', 'larissa.fonseca@email.com', '$2a$12$Cnu2tf04xa.e.k/3HJKi7eYOhbN2K1DUvjpijD7aLdN3fMd6mjzE6', 1, '89012345678', 8),
+('diego machado', 'diego.machado@email.com', '$2a$12$aHIFxhWmpZw0H5C99p/Niulf5eAaqmo9luQ0JzKEumHVRsSI5Rrwu', 1, '90123456789', 9),
+('natália guedes', 'natalia.guedes@email.com', '$2a$12$ZPLEAhD1b1BubQaf3OvIuOerF87VnurUM3WJFRek3oyNwT5OLa3ie', 1, '11223344556', 1),
+('vinícius torres', 'vinicius.torres@email.com', '$2a$12$lm5p0gHDFkPSFhkR3aWLju12SlbuAl9jNTT6S8wrzfY7grkxwcFI6', 1, '22334455667', 2),
+('aline ribeiro', 'aline.ribeiro@email.com', '$2a$12$ZA4f3eNhDFyWYNr3zVC2A.jAx.Mnr5EY6wr8.I9pagJKtTnfgcbS6', 1, '33445566778', 3),
+('leonardo pacheco', 'leonardo.pacheco@email.com', '$2a$12$.mocqicsuEv496k..WXFseh.F6YnGtsUEXGQzvYbcuOyqCakozEGG', 1, '44556677889', 4),
+('priscila batista', 'priscila.batista@email.com', '$2a$12$MlJe.MnmuyMkGXvCyHISjO.UmzUze0N7ye261YrQdiIZX/P7feFgC', 1, '55667788990', 5),
+('gustavo menezes', 'gustavo.menezes@email.com', '$2a$12$AI/bD4Uaro0nIYqc5OfOgecLvtwh1W5RY7aJ1HQvi7pKMkRYGCOfm', 1, '66778899001', 6),
 
 ('aluno desenvolvimento', 'devsecretaria@gmail.com','$2a$10$D1yHGY0bHj3ijaax2geWFOky/MptzwmcJdHYOrbpPzSfJfA0QAxNm',1,'99999999999',1);
 
