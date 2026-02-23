@@ -1,6 +1,6 @@
 CREATE TABLE school_class (
 	id SERIAL PRIMARY KEY,
-	school_year VARCHAR(20) NOT NULL
+	school_year VARCHAR(20) NOT NULL UNIQUE
 );
 
 CREATE TABLE teacher (
