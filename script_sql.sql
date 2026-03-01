@@ -18,7 +18,7 @@ CREATE TABLE student (
 	password VARCHAR(255) DEFAULT 'não informado',
 	status INT DEFAULT 1,
 	cpf VARCHAR(11) NOT NULL UNIQUE CHECK (cpf ~ '^[0-9]{11}$'),
-	id_school_class INT NOT NULL REFERENCES school_class(id)
+	id_school_class INT NOT NULL REFERENCES school_class(id) ON DELETE CASCADE
 );
 
 CREATE TABLE subject (
